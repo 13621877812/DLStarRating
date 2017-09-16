@@ -24,6 +24,8 @@
 
 - (void)setupView {
 	self.clipsToBounds = YES;
+    
+    NSLog(@"修改部分");
 	currentIdx = -1;
 	star = [[UIImage imageNamed:@"star.png"] retain];    
 	highlightedStar = [[UIImage imageNamed:@"star_highlighted.png"] retain];    
